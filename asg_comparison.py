@@ -5,28 +5,28 @@ from Functions import *
 
 
 def load_adv():
-    white = pd.read_csv('dw_adv')
+    white = pd.read_csv('adv_data/dw_adv')
     white = extract_season(white, '2023-24')
 
-    lillard = pd.read_csv('dl_adv')
+    lillard = pd.read_csv('adv_data/dl_adv')
     lillard = extract_season(lillard, '2023-24')
 
-    mitchell = pd.read_csv('dm_adv')
+    mitchell = pd.read_csv('adv_data/dm_adv')
     mitchell = extract_season(mitchell, '2023-24')
 
-    hali = pd.read_csv('th_adv')
+    hali = pd.read_csv('adv_data/th_adv')
     hali = extract_season(hali, '2023-24')
 
-    brunson = pd.read_csv('jb_adv')
+    brunson = pd.read_csv('adv_data/jb_adv')
     brunson = extract_season(brunson, '2023-24')
 
-    maxey = pd.read_csv('tm_adv')
+    maxey = pd.read_csv('adv_data/tm_adv')
     maxey = extract_season(maxey, '2023-24')
 
-    trae = pd.read_csv('ty_adv')
+    trae = pd.read_csv('adv_data/ty_adv')
     trae = extract_season(trae, '2023-24')
 
-    herro = pd.read_csv('tho_adv')
+    herro = pd.read_csv('adv_data/tho_adv')
     herro = extract_season(herro, '2023-24')
 
     dfs = [white, lillard, mitchell, hali, brunson, maxey, trae, herro]
