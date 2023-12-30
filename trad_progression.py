@@ -11,4 +11,6 @@ graph_progression(dw_trad, 'AST')
 graph_progression(dw_trad, 'TRB')
 graph_progression(dw_trad, 'STL')
 
+overlay_progression(dw_trad, ['PTS', 'AST', 'TRB', 'STL', 'BLK'])
+
 print(dw_trad.head(10))
